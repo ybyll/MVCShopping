@@ -328,6 +328,20 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MVCShopping.BLL\MVCShopping.BLL.csproj">
+      <Project>{865416d4-83fe-4982-b7a1-d1413c9529d4}</Project>
+      <Name>MVCShopping.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVCShopping.Model\MVCShopping.Model.csproj">
+      <Project>{26f449fc-2ab6-4333-bbba-9a954b51ff99}</Project>
+      <Name>MVCShopping.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVCShopping.ViewModel\MVCShopping.ViewModel.csproj">
+      <Project>{8480fea2-4a50-46f5-b293-985d25fcb45c}</Project>
+      <Name>MVCShopping.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

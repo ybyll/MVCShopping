@@ -93,6 +93,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MVCShopping.BLL\MVCShopping.BLL.csproj">
+      <Project>{865416d4-83fe-4982-b7a1-d1413c9529d4}</Project>
+      <Name>MVCShopping.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVCShopping.DAL\MVCShopping.DAL.csproj">
+      <Project>{54203c12-b4f1-408c-a9fa-d6efe1424409}</Project>
+      <Name>MVCShopping.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MVCShopping.Web\MVCShopping.Web.csproj">
       <Project>{411093F0-2A31-4C8A-97FF-B0003D3B6115}</Project>
       <Name>MVCShopping.Web</Name>
